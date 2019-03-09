@@ -1,5 +1,5 @@
 # Use Alpine Base Image with node/npm pre-installed
-FROM node:alpine
+FROM node:10.15.3-alpine
 
 WORKDIR /app
 
