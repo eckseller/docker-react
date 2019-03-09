@@ -6,4 +6,5 @@ before_install:
   - docker build -t eckseller/docker-react -f Dockerfile.dev .
 
 script:
+  - node --version
   - docker run eckseller/docker-react npm run test -- --coverage
