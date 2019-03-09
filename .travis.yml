@@ -3,7 +3,7 @@ services:
   - docker
     
 before_install:
-  - docker build -f -t eckseller/docker-react Dockerfile.dev .
+  - docker build -t eckseller/docker-react -f Dockerfile.dev .
 
 script:
   - docker run eckseller/docker-react npm run test -- --coverage
