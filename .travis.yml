@@ -8,8 +8,8 @@ before_install:
 script:
   - which node
   - node --version
-  - nvm install stable
-  - nvm use stable
+  - nvm install 10.15.3
+  - nvm use 10.15.3
   - node --version
   - which node
   - docker run eckseller/docker-react npm run test -- --coverage
