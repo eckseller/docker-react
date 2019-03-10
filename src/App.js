@@ -11,6 +11,9 @@ class App extends Component {
           <p>
             Another Commit for Travis CI
           </p>
+          <p>
+            A new feature has been added!
+          </p>
           <a
             className="App-link"
             href="https://reactjs.org"
